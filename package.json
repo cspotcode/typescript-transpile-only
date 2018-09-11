@@ -1,6 +1,6 @@
 {
   "license": "MIT",
-  "name": "tsc-transpile-only",
+  "name": "typescript-transpile-only",
   "description": "TypeScript tsc CLI that skips typechecking.",
   "author": "Andrew Bradley <cspotcode@gmail.com>",
   "version": "0.0.3",
