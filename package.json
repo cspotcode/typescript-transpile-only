@@ -20,7 +20,7 @@
     "downlevel"
   ],
   "bin": {
-    "tsc-transpile-only": "out/tsc-transpile-only"
+    "tsc-transpile-only": "out/tsc-transpile-only.js"
   },
   "dependencies": {
     "tslib": "^1.9.3"
