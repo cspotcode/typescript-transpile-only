@@ -1,0 +1,6 @@
+{
+    "compilerOptions": {
+        "importHelpers": true,
+        "downlevelIteration": true
+    }
+}
