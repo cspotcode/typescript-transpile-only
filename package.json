@@ -3,7 +3,7 @@
   "name": "tsc-transpile-only",
   "description": "TypeScript tsc CLI that skips typechecking.",
   "author": "Andrew Bradley <cspotcode@gmail.com>",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "homepage": "https://github.com/cspotcode/typescript-transpile-only",
   "repository": {
     "type": "git",
