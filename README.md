@@ -30,6 +30,8 @@ No tests; use it at your own risk.  Or look at the code; it's tiny.
 Does not support `--build`, `--help`, `--version`, or `--all` flags.  
 The only one that makes sense in this context is `--build`, but you can easily workaround this by invoking `tsc-transpile-only` multiple times.
 
+Exit codes are valid but don't exactly match `tsc`'s behavior.  `tsc` uses different non-zero error codes depending on the reason for failure.  We use exit code 1 for all failures; 0 for success. (no syntax errors)
+
 # Bugs / Questions / Suggestions
 
-Please [open an issue]() on Github.
+Please [open an issue](https://github.com/cspotcode/typescript-transpile-only/issues) on Github.
