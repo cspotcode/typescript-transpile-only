@@ -1,0 +1,38 @@
+{
+  "license": "MIT",
+  "name": "tsc-transpile-only",
+  "description": "TypeScript tsc CLI that skips typechecking.",
+  "author": "Andrew Bradley <cspotcode@gmail.com>",
+  "version": "0.0.0",
+  "homepage": "https://github.com/cspotcode/typescript-transpile-only",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cspotcode/typescript-transpile-only"
+  },
+  "bugs": {
+    "url": "https://github.com/cspotcode/typescript-transpile-only/issues"
+  },
+  "keywords": [
+    "TypeScript",
+    "transpile-only",
+    "transpile",
+    "compile",
+    "downlevel"
+  ],
+  "bin": {
+    "tsc-transpile-only": "out/tsc-transpile-only"
+  },
+  "dependencies": {
+    "tslib": "^1.9.3"
+  },
+  "peerDependencies": {
+    "typescript": "*"
+  },
+  "devDependencies": {
+    "typescript": "^3.0.3"
+  },
+  "files": [
+    "src",
+    "out"
+  ]
+}
