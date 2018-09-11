@@ -25,7 +25,7 @@ function main() {
         getCurrentDirectory: () => tempCompilerHost2.getCurrentDirectory(),
         onUnRecoverableConfigFileDiagnostic: () => undefined
     };
-    const configFilePath = ts.findConfigFile(parsedCommandLine.options.project || '.', configParsingHost.fileExists);
+    const configFilePath = ts.findConfigFile(parsedCommandLine.options.project || configParsingHost.getCurrentDirectory(), configParsingHost.fileExists, parsedCommandLine.options.project);
     let parsedConfig: ts.ParsedCommandLine | undefined = parsedCommandLine;
     if(configFilePath) {
         parsedConfig = ts.getParsedCommandLineOfConfigFile(configFilePath!, parsedCommandLine.options, {
